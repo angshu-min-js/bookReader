@@ -20,10 +20,21 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.qloudai.bookReader"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-font",
+      "./plugins/withDevanagariModel"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "f7c7e05a-1fb9-41b5-8882-baa61487c4a0"
+      }
+    },
+    "owner": "qloudai"
   }
 }
